@@ -35,8 +35,6 @@ public class PushController {
 
             return new ResponseEntity(e.getMessage(), HttpStatus.BAD_REQUEST);
         }
-        return new ResponseEntity("OK", HttpStatus.OK);
+        return new ResponseEntity("This is just a test please ignore.", HttpStatus.OK);
     }
-
-
 }
